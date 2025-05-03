@@ -49,6 +49,6 @@ This project is part of my **front-end development learning journey**, where I f
 
 ---
 
-RahilBhoot
+Manan
 🔗 [Git Hub](https://github.com/Manoskie)
 Learning full-stack-development, one project at a time!
