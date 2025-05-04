@@ -349,3 +349,212 @@ section {
     padding: 10px 20px;
     margin-top: 15px;
 }
+
+.tesla {
+    background-color: #F5F7FA;
+    display: flex;
+    ;
+}
+
+.tesla-img img {
+    height: 250px;
+    width: 250px;
+}
+
+
+.tesla-normal {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.tesla h2 {
+    color: #4CAF4F;
+    font-weight: 500;
+}
+
+.tesla-small {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    opacity: 80%;
+    font-size: 2vh;
+}
+
+.tesla-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tesla-right {
+    margin-left: 25px;
+}
+
+.tesla-button {
+    background-color: #F5F7FA;
+    border: none;
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.caring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.caring-text {
+    text-align: center;
+}
+
+.caring-text h2 {
+    font-size: 4vh;
+    color: #4D4D4D;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.caring-text p {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.caring-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.caring-card img {
+    width: 100%;
+}
+
+.caring-card {
+    background-color: #F5F7FA;
+    border-radius: 10px;
+    position: relative;
+}
+
+.caring-card p {
+    color: #4D4D4D;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 2.7vh;
+    text-align: center;
+}
+
+.caring-box {
+    justify-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 65%;
+    background-color: #F5F7FA;
+    margin: 0px 10px;
+    border-radius: 15px;
+    height: 100px;
+    box-shadow: 1px 3px 3px rgb(187, 186, 186);
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.caring-box button {
+    background-color: #F5F7FA;
+    border: none;
+    color: #4CAF4F;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.bottom {
+    background-color: #F5F7FA;
+    justify-items: center;
+}
+
+.bottom button {
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.bottom h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #263238;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    padding: 70px;
+    background-color: #263238;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.footer-company h2,
+.footer-support h2,
+.footer-right h2 {
+    padding-bottom: 30px;
+}
+
+.social-medias {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-left p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+
+.footer-left {
+    padding-right: 90px;
+}
+
+li {
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.mail {
+    display: flex;
+    background-color: #4D4D4D;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #4D4D4D;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-send-btn {
+    background-color: #4D4D4D;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+
+}
+input::placeholder{
+    padding-left: 5px;
+}
