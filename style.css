@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-p {
+body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
@@ -108,29 +108,244 @@ main {
     background-color: #A5D6A7;
 }
 
-.client-text{
+.client-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.client-bigtext{
+
+.client-bigtext {
     padding-top: 20px;
     font-size: 5vh;
     color: #4D4D4D;
     font-weight: 600;
 }
-.client-smalltext{
+
+.client-smalltext {
     color: #4D4D4D;
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
     font-size: 2vh;
 }
-.client-logo{
+
+.client-logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+/* ************** */
+/* Community section */
+/* ************** */
+
+section {
+    padding: 40px 144px;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.community h2 {
+    padding-top: 20px;
+    font-size: 5vh;
+    color: #4D4D4D;
+    font-weight: 600;
+    text-align: center;
+}
+
+.community p {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.community-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+.community-card {
+    /* background-color: #F5F7FA; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px rgb(187, 186, 186);
+}
+
+.community-card h3 {
+    font-size: 3vh;
+    color: #4D4D4D;
+    font-weight: 900;
+    text-align: center;
+}
+
+.community-card p {
+    color: #4D4D4D;
+    /* padding-top: 5px; */
+    /* padding-bottom: 20px; */
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.community-image {
+    background-color: #A5D6A7;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+}
+
+.community-image img {
+    position: absolute;
+    top: 0px;
+    right: 48%;
+}
+
+
+.unseen-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.unseen-sec h2 {
+    padding-top: 20px;
+    font-size: 4vh;
+    color: #4D4D4D;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.unseen-sec p {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.unseen-image {
+    width: 300px;
+    height: 300px;
+    padding-right: 80px;
+}
+
+.unseen-button {
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.helping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+.helping-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+}
+
+.helping-span {
+    color: #4CAF4F;
+}
+
+.helping-text h2 {
+    color: #4D4D4D;
+}
+
+.helping-text p {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.hlogo h2 {
+    font-size: 3vh;
+    color: #4D4D4D;
+    font-weight: 900;
+}
+
+.hlogo {
+    width: 255px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.hlogo img {
+    height: 48px;
+    width: 48px;
+}
+
+.how-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.how-to h2 {
+    padding-top: 20px;
+    font-size: 4vh;
+    color: #4D4D4D;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.how-to p {
+    color: #4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+}
+
+.howto-image {
+    width: 300px;
+    height: 300px;
+    padding-right: 80px;
+}
+
+.howto-button {
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
 }
