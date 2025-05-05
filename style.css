@@ -10,12 +10,23 @@ body {
 }
 
 
-body {
+/* body {
     max-width: 1400px;
+    margin: 0 auto;
+} */
+
+section {
+    max-width: 1300px;
+    padding-left: 144px;
+    padding-right: 144px;
     margin: 0 auto;
 }
 
 nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-right: 144px;
+    padding-left: 144px;
     height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -52,6 +63,10 @@ main {
 }
 
 .hero-section {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-left: 144px;
+    padding-right: 144px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,7 +75,7 @@ main {
 }
 
 .hero-bigtext {
-    font-size: 9vh;
+    font-size: 38px;
     color: #4D4D4D;
     font-weight: 600;
 }
@@ -71,6 +86,7 @@ main {
 
 .hero-smalltext {
     color: #4D4D4D;
+    font-size: 14px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 400;
@@ -85,6 +101,10 @@ main {
 }
 
 .dot-section {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-left: 144px;
+    padding-right: 144px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +137,7 @@ main {
 
 .client-bigtext {
     padding-top: 20px;
-    font-size: 5vh;
+    font-size: 38px;
     color: #4D4D4D;
     font-weight: 600;
 }
@@ -127,7 +147,7 @@ main {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .client-logo {
@@ -157,7 +177,7 @@ section {
 
 .community h2 {
     padding-top: 20px;
-    font-size: 5vh;
+    font-size: 38px;
     color: #4D4D4D;
     font-weight: 600;
     text-align: center;
@@ -168,7 +188,7 @@ section {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .community-cards {
@@ -191,7 +211,7 @@ section {
 }
 
 .community-card h3 {
-    font-size: 3vh;
+    font-size: 28px;
     color: #4D4D4D;
     font-weight: 900;
     text-align: center;
@@ -202,7 +222,7 @@ section {
     /* padding-top: 5px; */
     /* padding-bottom: 20px; */
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .community-image {
@@ -233,7 +253,7 @@ section {
 
 .unseen-sec h2 {
     padding-top: 20px;
-    font-size: 4vh;
+    font-size: 38px;
     color: #4D4D4D;
     font-weight: 600;
     padding-bottom: 10px;
@@ -244,7 +264,7 @@ section {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .unseen-image {
@@ -289,11 +309,11 @@ section {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .hlogo h2 {
-    font-size: 3vh;
+    font-size: 28px;
     color: #4D4D4D;
     font-weight: 900;
 }
@@ -321,7 +341,7 @@ section {
 
 .how-to h2 {
     padding-top: 20px;
-    font-size: 4vh;
+    font-size: 38px;
     color: #4D4D4D;
     font-weight: 600;
     padding-bottom: 10px;
@@ -332,7 +352,7 @@ section {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .howto-image {
@@ -367,11 +387,12 @@ section {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .tesla h2 {
     color: #4CAF4F;
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -381,7 +402,7 @@ section {
     padding-bottom: 20px;
     font-weight: 400;
     opacity: 80%;
-    font-size: 2vh;
+    font-size: 18px;
 }
 
 .tesla-logos {
@@ -412,7 +433,7 @@ section {
 }
 
 .caring-text h2 {
-    font-size: 4vh;
+    font-size: 38px;
     color: #4D4D4D;
     font-weight: 600;
     padding-bottom: 10px;
@@ -423,7 +444,7 @@ section {
     padding-top: 5px;
     padding-bottom: 20px;
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .caring-cards {
@@ -446,7 +467,7 @@ section {
     color: #4D4D4D;
     padding-top: 5px;
     font-weight: 400;
-    font-size: 2.7vh;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -488,7 +509,7 @@ section {
 }
 
 .bottom h2 {
-    font-size: 40px;
+    font-size: 38px;
     margin-bottom: 10px;
     color: #263238;
     font-weight: 600;
@@ -496,7 +517,12 @@ section {
 }
 
 footer {
-    padding: 70px;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-right: 144px;
+    padding-left: 144px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: #263238;
     color: white;
     display: flex;
@@ -555,6 +581,7 @@ input {
     margin: 0;
 
 }
-input::placeholder{
+
+input::placeholder {
     padding-left: 5px;
 }
